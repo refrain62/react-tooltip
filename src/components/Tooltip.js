@@ -1,10 +1,13 @@
+import { useState } from 'react'
 import './Tooltip.css';
 
 const Tooltip = ({ children, content }) => {
+    const [ show, setShow ] = useState( false );
+
     return (
         <div className="container">
             <div>{ children }</div>
-            <div>{ content }</div>
+            {show && <div>{ content }</div>}
         </div>
     )
 }
