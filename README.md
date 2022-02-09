@@ -1,4 +1,24 @@
-# Getting Started with Create React App
+# Tooltip(ツールチップ)を実装しながらReact Hookを学ぶ
+https://reffect.co.jp/react/react-tooltip の写経
+
+## プロジェクト作成
+```
+npx create-react-app react-tooltip
+```
+
+## リポジトリに追加
+```
+git remote add origin https://github.com/refrain62/react-tooltip.git
+git branch -M main
+git push -u origin main
+```
+
+## プロジェクトの起動
+```
+yarn start
+```
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
