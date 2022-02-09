@@ -6,7 +6,9 @@ import Tooltip from './components/Tooltip';
 const Content = () => {
   return (
     <div>
-      <h1>Content コンポーネント</h1>
+      <span style={{ color: 'red', fontWeight: 'bold' }}>
+                Tooltipに表示させたい内容をここに記述します
+                </span>
     </div>
   );
 };
