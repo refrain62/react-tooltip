@@ -6,7 +6,12 @@ const Tooltip = ({ children, content }) => {
 
     return (
         <div className="container">
-            <div>{ children }</div>
+            <div
+                onMouseEnter={() => setShow( true )}
+                onMouseLeave={() => setShow( false )}
+                >
+                { children }
+            </div>
             {show && <div>{ content }</div>}
         </div>
     )
