@@ -13,7 +13,10 @@ function App() {
       >
         <h1>Reactで初めてのTooltip実装</h1>
         <div>
-          <Tooltip content="Tooltipに表示させたい内容をここに記述します">
+          <Tooltip
+            content="Tooltipに表示させたい内容をここに記述します"
+            location="left"
+            >
             <button>ToolTip</button>
           </Tooltip>
           <div>ここから文章は続きます。</div>

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './Tooltip.css';
 
-const Tooltip = ({ children, content }) => {
+const Tooltip = ({ children, content, location }) => {
     const [ show, setShow ] = useState( false );
 
     return (
@@ -12,7 +12,7 @@ const Tooltip = ({ children, content }) => {
                 >
                 { children }
             </div>
-            {show && <div>{ content }</div>}
+            {show && <div className={location}>{ content }</div>}
         </div>
     )
 }
