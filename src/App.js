@@ -14,8 +14,12 @@ function App() {
         <h1>Reactで初めてのTooltip実装</h1>
         <div>
           <Tooltip
-            content="Tooltipに表示させたい内容をここに記述します"
-            location="left"
+            content={
+              <span style={{ color: 'red', fontWeight: 'bold' }}>
+                Tooltipに表示させたい内容をここに記述します
+                </span>
+            }
+            location="right"
             >
             <button>ToolTip</button>
           </Tooltip>
