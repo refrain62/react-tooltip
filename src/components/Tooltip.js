@@ -7,7 +7,7 @@ const Tooltip = ({ children, content, location }) => {
     return (
         <div className="container">
             <div
-                onClick={() => setShow( true )}
+                onClick={() => setShow( !show )}
                 >
                 { children }
             </div>
