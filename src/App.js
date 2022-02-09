@@ -3,21 +3,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      style={{
+        width: '500px',
+        margin: '0 auto',
+      }}
+      >
+        <h1>Reactで初めてのTooltip実装</h1>
+        <div>
+          <button>ToolTip</button>
+        </div>
     </div>
   );
 }
